@@ -1,0 +1,58 @@
+.weather_current {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.forecast_icon,
+.weather_current_temp img {
+    width: 54px;
+    height: 54px;
+}
+
+.weather_city {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.weather_current_temp {
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+.weather_status img {
+    width: 100%;
+}
+
+.weather_details {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_details div {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.weather_details img,
+.weather_current_additional img {
+    margin-right: 15px;
+}
+
+.weather_current_additional {
+    justify-self: center;
+}
+
+.weather_current_additional div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}

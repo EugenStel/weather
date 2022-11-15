@@ -1,0 +1,48 @@
+.daily_forecast_wrapper {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.daily_forecast_item {
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.daily_temp {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_status .daily_weather_icon {
+    width: 40%;
+}
+
+@media screen and (max-width: 1180px) {
+    .daily_forecast_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .daily_forecast_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .daily_forecast_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

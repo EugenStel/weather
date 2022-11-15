@@ -1,0 +1,19 @@
+.search_bar {
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_bar img {
+  cursor: pointer;
+}
+
+.search_bar input {
+  padding: 15px;
+  margin-right: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
